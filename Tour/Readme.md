@@ -22,3 +22,5 @@ and prints the page tilte,source code with its length.
  * Then it gets all the options  in the dropdowns and prints those options in the console.
 
  * Next it goes to the select flight details and it goes to the Book a Flight page then it enters the details in all the UI elements and then again it gets all the options  in the dropdowns and prints those options in the console,no of radiobuttons,no of link-text,no of images and prints the page tilte,source code with its length.
+ 
+ * Finally it closes the browser.
