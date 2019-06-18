@@ -4,9 +4,10 @@
 
 ## Built with
   1. Apache poi 3.10 
-  2. selenium jar 
-  3. selenium chrome driver
-  4. JAVA
+  2. selenium 3.9.1
+  3. selenium chrome driver 75.0
+  4. eclipse ide 2018-09
+  5. JAVA
 
 ## What this script does?
 
