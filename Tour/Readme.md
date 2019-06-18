@@ -15,7 +15,7 @@
 
  * And then a count of images and input boxes will printed in console.
 
- * Then the by using Apache POI the username and password will be obtained from the login_dataset.xlsx file.
+ * Then by using Apache POI the username and password will be obtained from the login_dataset.xlsx file and enters into that particular input boxes.
 
  * when it enters the second page it gets the title of the page and its length,URL,no of  dropdowns,no of radiobuttons,no of link-text,no of images
 and prints the page tilte,source code with its length.
