@@ -1,6 +1,6 @@
-# Automation testing of a flight_booking demo site
-  * The aim of this testing is to check all the UI elements are visible and to get the count of those elements present in all the pages.<br/>
-   * Then login credentials  should be entered in the page through an excel(i.e login_dataset.xlsx)
+# Automation Test Script for newtours demo site
+  * The aim of this test is to count and check all the webelements present in the webpages.<br/>
+   * Then login credentials  will be entered in the page through an excel file(i.e login_dataset.xlsx).
 
 ## Built with
   1. Apache poi 3.10 
@@ -9,19 +9,22 @@
   4. eclipse ide 2018-09
   5. JAVA
 
-## What this script does?
+## What the script does?
 
- * The selenium script ,initially starts the chrome driver and launches the url and the script checks the launched URL is correct or not and checks .
+ * The selenium script initially launches the browser and opens the URL. 
+ *The script checks whether the launched URL is correct or not.
 
- * And then a count of images and input boxes will printed in console.
+ * It counts number of images, input boxes and it will be printed in console.
 
- * Then by using Apache POI the username and password will be obtained from the login_dataset.xlsx file and enters into that particular input boxes.
+ * Then by using Apache POI the username and password will be obtained from the login_dataset.xlsx file and enters into that particular text boxes.
 
  * when it enters the second page it gets the title of the page and its length,URL,no of  dropdowns,no of radiobuttons,no of link-text,no of images
 and prints the page tilte,source code with its length.
 
+* Next it identifies each webelements and sends the data.  
+
  * Then it gets all the options  in the dropdowns and prints those options in the console.
 
- * Next it goes to the select flight details and it goes to the Book a Flight page then it enters the details in all the UI elements and then again it gets all the options  in the dropdowns and prints those options in the console,no of radiobuttons,no of link-text,no of images and prints the page tilte,source code with its length.
+ * Next it goes to the select flight details webpage and it will click on the continue button and goes to Book a Flight page then it enters the details in all the UI elements and then again it gets all the options  in the dropdowns , no of radiobuttons, no of link-text, no of images, the page tilte,source code with its length and prints in the console.
  
  * Finally it closes the browser.
