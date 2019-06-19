@@ -12,7 +12,7 @@
 ## What the script does?
 
  * The selenium script initially launches the browser and opens the URL. 
- *The script checks whether the launched URL is correct or not.
+ * The script checks whether the launched URL is correct or not.
 
  * It counts number of images, input boxes and it will be printed in console.
 
