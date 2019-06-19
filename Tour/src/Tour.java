@@ -463,28 +463,12 @@ public class Tour {
 		    WebElement code1 =d.findElement(By.name("delZip"));
 		    code1.clear();
 		    code1.sendKeys("641035");
-		    //country
-		    WebElement country1 = d.findElement(By.xpath("//select[@name='delCountry']"));
-		    Select country1_ = new Select(country1);
-		    country1_.selectByVisibleText("UNITED STATES ");
-		    country1_.selectByIndex(91);
-		    System.out.println("options displayed in country dropdown");
-		    System.out.println(country1.getText());
-		    System.out.println("");
-		    //secure purchase
-		    d.findElement(By.name("buyFlights")).click();
+		   
 		    
-		    System.out.println("==========================FLIGHT BOOKED==================================");
-		    //result
-		    System.out.println("");
-		    System.out.println("The url of the page "+d.getTitle());
-		    
-		    d.close();
+		    d.quit();
 		    
 		} catch (Exception e) {
-			//System.out.println("cant find the userName");
-			//d.quit();
-			e.printStackTrace();
+		 e.printStackTrace();
 		}
 	
 	
